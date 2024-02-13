@@ -4,7 +4,7 @@
 }
 
 * {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -211,8 +211,9 @@ body {
 .menu .row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 3rem;
   justify-content: center;
+  gap: 3rem;
 }
 
 .menu .row .menu-card {
@@ -220,7 +221,7 @@ body {
 }
 
 .menu .row .menu-card img {
-  border-radius: 50%;
+  border-radius: 5%;
   width: 80%;
 }
 
