@@ -155,7 +155,7 @@ body {
 .menu h2 {
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .about span,
@@ -196,13 +196,16 @@ body {
 
 /* Menu section start */
 .menu {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2px; */
+  /* padding-top: 8rem; */
+  padding: 8rem 7% 1.4rem;
 }
 
 .menu p {
-  margin-top: 1px;
+  font-size: 1.2rem;
+  margin-top: 10px;
   text-align: center;
-  max-width: 30rem;
+  max-width: 40rem;
   margin: auto;
   font-weight: 100;
   line-height: 1.6;
@@ -296,6 +299,10 @@ body {
     font-size: 3rem;
   }
   .about .row .content p {
+    font-size: 1.5rem;
+  }
+
+  .menu p {
     font-size: 1.5rem;
   }
 }
