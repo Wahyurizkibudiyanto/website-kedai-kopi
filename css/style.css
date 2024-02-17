@@ -17,7 +17,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #ffffff;
-  min-height: 3000px;
+  min-height: 6000px;
 }
 
 /* NAVBAR */
@@ -147,19 +147,22 @@ body {
 
 /* About section start */
 .about,
-.menu {
+.menu,
+.contact {
   padding: 8rem 7% 1.4rem;
 }
 
 .about h2,
-.menu h2 {
+.menu h2,
+.contact h2 {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 .about span,
-.menu h2 span {
+.menu h2 span,
+.contact h2 span {
   color: var(--primary);
 }
 
@@ -195,13 +198,15 @@ body {
 /* About section end */
 
 /* Menu section start */
-.menu {
+.menu h2,
+.contact h2 {
   /* margin-bottom: 2px; */
   /* padding-top: 8rem; */
   padding: 8rem 7% 1.4rem;
 }
 
-.menu p {
+.menu p,
+.contact p {
   font-size: 1.2rem;
   margin-top: 10px;
   text-align: center;
@@ -233,8 +238,16 @@ body {
 .menu .row .menu-card .menu-card-title {
   margin: 1rem auto 0.5rem;
 }
-
 /* Menu section end */
+
+/* Contact section start */
+.contact .row {
+  display: flex;
+  margin-top: 2rem;
+  background-color: #1f1f1f;
+}
+/* Contact section end */
+
 
 /* MEDIA QUERIES */
 /* Laptop */
