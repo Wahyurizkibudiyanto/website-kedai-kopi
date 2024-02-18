@@ -245,9 +245,16 @@ body {
   display: flex;
   margin-top: 2rem;
   background-color: #1f1f1f;
+  flex-wrap: wrap;
 }
-/* Contact section end */
 
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover ;
+}
+
+/* Contact section end */
 
 /* MEDIA QUERIES */
 /* Laptop */
