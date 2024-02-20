@@ -265,8 +265,12 @@ body {
   align-items: center;
   margin-top: 2em;
   background-color: #4b4b4b;
-  border: 1px solid #fff;
+  border: 1px solid #7c7c7c;
   padding-left: 1rem;
+}
+
+.contact .row .input-group:hover {
+  border: 1px solid #ffffff;
 }
 
 .contact .row form .input-group input {
@@ -276,6 +280,7 @@ body {
   font-size: 2rem;
   color: #fff;
 }
+
 
 .contact .row .input-group i {
   font-size: 2rem;
