@@ -263,10 +263,22 @@ body {
 .contact .row form .input-group {
   display: flex;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 2em;
   background-color: #4b4b4b;
   border: 1px solid #fff;
-  padding-left: 2rem;
+  padding-left: 1rem;
+}
+
+.contact .row form .input-group input {
+  width: 100%;
+  background: none;
+  padding: 1.5rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.contact .row .input-group i {
+  font-size: 2rem;
 }
 
 /* Contact section end */
