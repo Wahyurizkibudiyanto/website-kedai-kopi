@@ -259,6 +259,16 @@ body {
   padding: 4rem 2rem;
   text-align: center;
 }
+
+.contact .row form .input-group {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: #4b4b4b;
+  border: 1px solid #fff;
+  padding-left: 2rem;
+}
+
 /* Contact section end */
 
 /* MEDIA QUERIES */
