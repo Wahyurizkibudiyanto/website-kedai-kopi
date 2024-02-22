@@ -281,8 +281,14 @@ body {
   color: #fff;
 }
 
-
 .contact .row .input-group i {
+  font-size: 2rem;
+}
+
+.contact .row form .btn {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 1rem 4rem;
   font-size: 2rem;
 }
 
