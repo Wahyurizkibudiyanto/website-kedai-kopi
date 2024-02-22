@@ -288,9 +288,11 @@ body {
 .contact .row form .btn {
   display: inline-block;
   margin-top: 3rem;
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
   font-size: 2rem;
-}
+  cursor: pointer;
+  background-color: var(--primary);
+  color: #fff;
 
 /* Contact section end */
 
